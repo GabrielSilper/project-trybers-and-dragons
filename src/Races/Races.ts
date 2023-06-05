@@ -1,11 +1,11 @@
 abstract class Race {
   constructor(private _name: string, private _dexterity: number) {}
 
-  get name() {
+  public get name() {
     return this._name;
   }
 
-  get dexterity() {
+  public get dexterity() {
     return this._dexterity;
   }
 
